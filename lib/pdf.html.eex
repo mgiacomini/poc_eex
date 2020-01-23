@@ -1,0 +1,10 @@
+<html>
+  <head></head>
+  <body>
+    <h1><%= @havanoia %></h1>
+
+    <%= for i <- @list do %>
+    <div><%= i %><div>
+    <% end %>
+  </body>
+</html>
